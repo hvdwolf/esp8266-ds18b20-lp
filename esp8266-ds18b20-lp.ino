@@ -144,7 +144,7 @@ void loop(void)
   
   // To main pimatic
   send_data(host, httpPort);
-  // to backup pimatic (bananapi)
+  // to backup pimatic (bananapi);disable if you don't need it
   send_data(backuphost,backuphttpPort);
   
   Serial.println();
