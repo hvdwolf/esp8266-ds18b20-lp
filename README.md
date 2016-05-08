@@ -5,7 +5,7 @@ This is a minimal barebones ESP8266 ino for pimatic. It tries to be as low power
 This one is made for a ds18b20 temperature sensor but you can just as easily convert it to a DHT11/DHT22.<br>
 It uses no webgui and no telnet access, so you can not access it via your network and neither does it use mDNS.<br>
 It is based on a static ip address you assign inside the code. (Note that an ip reservation inside your router for the mac address of your ESP will not work).<br>
-A web server, telnet access, mDNS and/or a static ip address are all power requiring options.
+A web server, telnet access, mDNS and/or a dynamic ip address (also by reservation inside your router) are all power requiring options.
 
 What you have to change inside the code before loading it into your ESP:
 - Your wlan ssid and password (ssid & password)
